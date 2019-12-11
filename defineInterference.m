@@ -8,7 +8,7 @@ interferenceParameter.type = type;
 t_slow = (0 : radarParameter.N_chirp - 1) * radarParameter.T_chirp; 
 % in which sample
 t_fast = (0 : radarParameter.N_sample - 1) * radarParameter.T_sample;
-% phase of the first chirp of CS radar
+% phase of the first chirp of the CS radar
 f_cs = radarParameter.f0 + radarParameter.ramp * t_fast;
 f_cs = repmat(f_cs,1,radarParameter.N_chirp);
 % phaseshift because of vr
