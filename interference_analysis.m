@@ -8,7 +8,7 @@ Tx_position = [0 0 0];
 Rx_position = [0 0 0;1/2 0 0;0 1/2 0;1/2 1/2 0];
 %define a CS radar
 radarParameter = defineRadar(f0, Bc, fs, N_chirps, N_samples, Tx_position, Rx_position);
-% xxxxx = radarParameter.P;
+
 
 %set the parameters of the targets
 ranges = [5 10 15 20];
